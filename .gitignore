@@ -1,0 +1,20 @@
+# Python cache/build
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Experiment outputs
+eir_mappo/results/
+analysis/
+*.log
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local assistant/session artifacts
+.claude/
+.specstory/
+.cursorindexingignore
